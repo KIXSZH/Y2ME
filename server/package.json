@@ -1,0 +1,17 @@
+{
+  "name": "y2me",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@distube/ytpl": "^1.2.4",
+    "archiver": "^7.0.1",
+    "cli-progress": "^3.12.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}

@@ -1,0 +1,102 @@
+/* GLOBAL */
+body {
+  margin: 0;
+  background: #000;
+  color: #00ff9c;
+  font-family: "Courier New", monospace;
+}
+
+.app {
+  padding: 28px;
+}
+
+/* HEADERS */
+h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.subtitle {
+  opacity: 0.6;
+  margin-bottom: 18px;
+}
+
+/* INPUT BAR */
+.input-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+input {
+  flex: 1;
+  background: #000;
+  border: 1px solid #00ff9c;
+  color: #00ff9c;
+  padding: 10px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #00ff9c55;
+}
+
+button {
+  background: #000;
+  border: 1px solid #00ff9c;
+  color: #00ff9c;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+button:hover {
+  background: #001a12;
+}
+
+/* ACTION BAR */
+.action-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #003d2c;
+  padding: 10px;
+}
+
+th {
+  background: #00130d;
+  text-align: left;
+}
+
+tr:hover {
+  background: rgba(0, 255, 156, 0.06);
+}
+
+/* CHECKBOX (ENHANCED) */
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: #00ff9c;
+  cursor: pointer;
+}
+
+/* STATUS */
+.status {
+  font-size: 13px;
+  opacity: 0.9;
+}
+
+/* LOADER */
+.loader {
+  text-align: center;
+  margin-top: 50px;
+}
